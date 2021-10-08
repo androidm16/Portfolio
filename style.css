@@ -50,7 +50,7 @@ body{
       border-radius: 15%;
       float: left;
       display: 15%;
-      opacity: ;
+      opacity: 0;
       image-rendering: auto;
       position: center;
   }
@@ -58,6 +58,10 @@ body{
       font-weight: bold;
   }
   body {
-      background-color: grey;
+      background-color:grey;
 
+  }
+
+  .container{
+      flex-direction: column;
   }

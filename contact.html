@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <nav>
+    <ul>
+      <div class="topnav">
+      <li><a href="#">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+    </ul>
+    <div>
+</nav>
     <style>
         body {
     background-color: grey;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://picsum.photos/1200);
+    background-size: cover;
+    background-position: center;
 }
 p {
     position: center;
@@ -20,5 +36,39 @@ p {
     <h1>Contact Me</h1>
     <br>
     <P>Cell & WhatsApp: 0623574437</P>
+    <nav>
+    </nav>
+  <form
+  action="https://formspree.io/f/mbjqbdzq"
+  method="POST"
+  >
+  <!--first label-->
+  <form>
+  <label>
+    First name:
+    <input type="Fname" name="_replyto">
+  </label>
+  </form>
+  <label>
+    Last name:
+    <input type="lname" name="_replyto">
+  </label>
+  <form>
+    Email:
+    <input type="email" name="_replyto">
+  </label>
+  <form>
+    Phone number:
+    <input type="phone" name="_replyto">
+</label>
+<form>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  </form>
+  <!-- your other form fields go here -->
+  <button type="submit">Submit</button>
+  <input type="Reset">
+</form>
 </body>
 </html>
