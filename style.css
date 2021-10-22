@@ -46,15 +46,7 @@ body{
     background-color: #04AA6D;
     color: white;
   }
-  img {
-      width: 30%;
-      border-radius: 15%;
-      float: left;
-      display: 15%;
-      opacity: 0;
-      image-rendering: auto;
-      position: center;
-  }
+
   p {
       font-weight: bold;
 
@@ -62,7 +54,7 @@ body{
   body {
       background-color:grey;
       background-image: url(https://picsum.photos/1200);
-          background-size: cover;
+      background-size: cover;
       animation-name: roll-in-blurred-left;
       animation-duration: 0.65s;
       animation-iteration-count: 1;
@@ -72,7 +64,37 @@ body{
   .container{
       flex-direction: column;
   }
-  
+
+  /* contact goes here */
+  .contact-body {
+    background-color: grey;
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    }
+    label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    position: end;
+    font-size: 20px;
+    justify-content: space-evenly;
+    }
+    .col-25 {
+    float: center;
+    width: 25%;
+    margin-top: 6px;
+    }
+    .col-75 {
+    float: center;
+    width: 75%;
+    margin-top: 6px;
+    }
+
+    
+
+  @media only screen and (max-width: 600px) {
+  }  
 
 
 
